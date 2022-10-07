@@ -34,9 +34,10 @@ hs_err_pid*
 config/local.properties
 /bin/
 /.idea/*
-*.iml
 /*.DS_Store/
 /target/*
 .DS_Store
+*.txt
+*.json
 
 /dds_api/target/
