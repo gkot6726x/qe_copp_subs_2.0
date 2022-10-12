@@ -7,7 +7,7 @@ public class Constants {
     public static final boolean DEBUG = true;
     public static final String TEST_ENV = System.getProperty("tests.env", "QA");
     public static final String TEST_RELEASE = getBuildName();
-    // public static final String TEST_RELEASE = System.getProperty("test.release", "DDS_API_Feature_Release");
+    // need this line dont remove, public static final String TEST_RELEASE = System.getProperty("test.release", "DDS_API_Feature_Release");
     public static final String TEST_PROJECT = System.getProperty("tests.project", "DDS API");
     public static final boolean UPDATE_DASHBOARD = Boolean.parseBoolean(System.getProperty("update.dashboard", "true"));
 

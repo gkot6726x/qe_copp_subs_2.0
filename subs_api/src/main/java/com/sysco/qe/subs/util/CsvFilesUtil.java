@@ -133,7 +133,7 @@ public class CsvFilesUtil {
     public static String getValueOfGivenRowAndColumn(int rowNum , int columnNum, List<List<String>> records) {
         String value = null;
         if(!records.isEmpty() && !records.get(rowNum).isEmpty()) {
-            value = records.get(rowNum).get(columnNum).replaceAll("\"", "");
+            value = records.get(rowNum).get(columnNum).replace("\"", "");
         }
         return value;
     }

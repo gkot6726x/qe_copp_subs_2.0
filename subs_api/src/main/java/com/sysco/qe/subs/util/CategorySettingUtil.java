@@ -4,12 +4,10 @@ import com.sysco.qe.subs.common.Constants;
 import com.sysco.qe.subs.data.CommonDataProvider;
 import com.sysco.qe.subs.data.EndPoints;
 import com.sysco.qe.subs.data.category_setting.CategorySettingDataProvider;
-import com.syscolab.qe.core.api.jackson.JacksonUtil;
 import com.syscolab.qe.core.api.restassured.RestUtil;
 import com.syscolab.qe.core.api.util.RequestMethods;
 import io.restassured.response.Response;
 
-import java.io.IOException;
 
 public class CategorySettingUtil {
     CategorySettingDataProvider categorySettingDataProvider = new CategorySettingDataProvider();

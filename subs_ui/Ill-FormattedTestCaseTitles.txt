@@ -1,2 +1,0 @@
-
-RMPI-2347 - testVerifyCategorySettingAddMargintoCategoryAPIWithValidData
