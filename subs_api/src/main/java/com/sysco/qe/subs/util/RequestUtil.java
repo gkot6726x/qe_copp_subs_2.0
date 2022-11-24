@@ -49,7 +49,7 @@ public class RequestUtil {
         return RestUtil.send(headers, bodyString, uri, requestMethod, queryParameters);
 
     }
-
+//gayu
     public static String getToken(String userRole) {
 
         String username = propertyFileReader.getProperty("config", userRole + "_email");
